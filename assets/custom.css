@@ -1,0 +1,137 @@
+.entry-title a {
+  border-bottom: none !important;
+}
+
+.unit-article img {
+  margin-right: auto;
+}
+
+.no-list li {
+  list-style: none;
+}
+
+pre {
+  background: url('/assets/theme/skin/100-90-5-monochrome.png') repeat 0 0 #999;
+  border: none;
+  border-radius: 5px;
+}
+
+.entry-content img {
+  max-width: 680px;
+}
+
+.gist pre {
+  color: #393939;
+}
+
+#contacts li.contact-badge {
+  display: inline-block;
+}
+
+#contacts li.contact-badge a {
+  border-bottom: none;
+}
+
+#contacts li.contact-badge img {
+  display: inline;
+  margin-bottom: 0;
+  width: 16px;
+  height: 16px;
+}
+
+#highlights li,
+#contacts li,
+#experiences li,
+#education li,
+#about_me li {
+  list-style: none;
+}
+
+#skills img {
+  width: 12px;
+  height: 12px;
+  margin-bottom: 0;
+}
+
+#skills li {
+  float: left;
+}
+
+#skills .novice, #skills .intermediate, #skills .pro {
+  font-size: 1em;
+  font-weight: normal;
+  top: 0;
+  margin: 5px;
+  border: 1px solid;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  padding: 3px 6px 3px 6px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.4);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-color: #484;
+}
+
+
+#skills .novice {
+  background-color: #E2F4E2;
+}
+
+#skills .intermediate {
+  background-color: #9C9;
+}
+
+#skills .pro {
+  background-color: #328532;
+  color: #fff;
+}
+
+#courses li, #events li {
+  list-style-position: inside;
+}
+
+#toc, .toc, .mw-warning {
+    background-color: #F9F9F9;
+    border: 1px solid #AAAAAA;
+    font-size: 95%;
+    padding: 5px;
+}
+#toc h2, .toc h2 {
+    border: medium none;
+    display: inline;
+    font-size: 100%;
+    font-weight: bold;
+    padding: 0;
+}
+#toc #toctitle, .toc #toctitle, #toc .toctitle, .toc .toctitle {
+    text-align: center;
+}
+#toc ul, .toc ul {
+    list-style-image: none;
+    list-style-type: none;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    text-align: left;
+}
+#toc ul ul, .toc ul ul {
+    margin: 0 0 0 2em;
+}
+#toc .toctoggle, .toc .toctoggle {
+    font-size: 94%;
+}
+
+#toc ul li {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#toc-container {
+	margin-bottom: 10px;
+}

@@ -1,0 +1,21 @@
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>{{ site.author.name }} | {{ page.title }}</title>
+    <meta name="author" content="{{ site.author.name }}">
+    <link href='{{ ASSET_PATH }}/css/style.css' rel="stylesheet" media="all">
+    <link href='{{ BASE_PATH }}/assets/custom.css' rel="stylesheet" media="all">
+<!--  <link rel="stylesheet" type="text/css" media="screen" href="/css/toc.css"> -->
+    <link href="http://hexiaowen.com/atom.xml" rel="alternate" title="{{ page.title }}" type="application/atom+xml">
+    <link rel="shortcut icon" href="/assets/images/favion.jpg" />
+    <link rel="apple-touch-icon" href="/assets/images/favion.jpg">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"></script>
+
+<!--
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="asset/jquery.tocLight.js"></script>
+    <script type="text/javascript">
+        $(function() {
+          $.toc.clickHideButton();
+         });
+    </script>
+-->

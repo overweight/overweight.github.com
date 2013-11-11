@@ -1,0 +1,32 @@
+auto: true
+server: true
+pygments: true
+# choose rdiscount instead of maruku because gists were breaking
+markdown: rdiscount
+
+name: Justhink
+description: 实现自我价值，赢取他人尊重
+url: http://hexiaowen.com
+
+title : JUSTHINK
+tagline: 实现自我价值，赢取他人尊重
+author:
+  name: hexiaowen
+  email: justhink@foxmail.com
+  github: justhink
+  twitter: hexiaowen
+  feedburner: leafac
+  gravatar_hash: 6f21efea48baa70b7649708b4b766633
+
+production_url: http://hexiaowen.com
+
+JB:
+  comments:
+    provider: disqus
+    disqus:
+      short_name: hexiaowen
+
+  analytics:
+    provider: google
+    google:
+        tracking_id : 'UA-36923510-1'
